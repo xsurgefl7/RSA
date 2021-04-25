@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RSA Cryptosystem</string>
+    <string name = "encrypt">Encrypt</string>
+    <string name = "decrypt">Decrypt</string>
+    <string name = "input">Enter either encrypted text or decrypted text here: </string>
+    <string name = "output">Output will be shown here:</string>
+</resources>
