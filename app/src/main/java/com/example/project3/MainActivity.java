@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         String privateKey = getPrivateKey();
 
         try {
-            byte[] decode = RSA.encryptByPrivateKey(encode, getPrivateKey());
+            byte[] decode = RSA.decryptByPrivateKey(encode, getPrivateKey());
             String decodeString = new String(decode);
             output.setText(decodeString);
 
